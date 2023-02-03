@@ -84,7 +84,7 @@ const writeNewCsv = async () => {
     if (error) {
       console.error(error);
     } else {
-      fs.writeFile("./Result/zip_frequencies.csv", output);
+      fs.writeFile("./zip_frequencies.csv", output);
     }
   });
 };
